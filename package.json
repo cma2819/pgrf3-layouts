@@ -1,0 +1,157 @@
+{
+    "name": "pgrf3-layouts",
+    "version": "0.0.0",
+    "description": "",
+    "homepage": "",
+    "author": {
+        "name": "Cma",
+        "email": "chicchaima@gmail.com",
+        "url": ""
+    },
+    "files": [
+        "dashboard",
+        "graphics",
+        "extension.js",
+        "extension"
+    ],
+    "keywords": [
+        "",
+        "nodecg-bundle"
+    ],
+    "nodecg": {
+        "compatibleRange": "^1.1.1",
+        "dashboardPanels": [
+            {
+                "name": "score",
+                "title": "Score",
+                "width": "4",
+                "headerColor": "#bcbcff",
+                "file": "scores.html"
+            }
+        ],
+        "graphics": [
+            {
+                "file": "setup/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "sd-solo/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "sd-race-2/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "score-attack-2/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "score-attack-4/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "hd-solo/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "hd-solo-with-cam/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "hd-race-2/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "hd-race-4/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "gb-solo/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "gba-solo/index.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "3ds/index.html",
+                "width": 1920,
+                "height": 1080
+            }
+        ],
+        "assetCategories": [
+            {
+                "name": "logo",
+                "title": "Logo",
+                "allowedTypes": [
+                    "jpg",
+                    "png",
+                    "jpeg"
+                ]
+            },
+            {
+                "name": "ome-logo",
+                "title": "OME-Logo",
+                "allowedTypes": [
+                    "jpg",
+                    "png",
+                    "jpeg"
+                ]
+            },
+            {
+                "name": "background",
+                "title": "Background",
+                "allowedTypes": [
+                    "jpg",
+                    "png",
+                    "jpeg"
+                ]
+            }
+        ]
+    },
+    "scripts": {
+        "build": "webpack --mode=production",
+        "dev": "webpack --watch --mode=development",
+        "start": "node ../..",
+        "schema-types": "nodecg schema-types -o src/nodecg/generated schemas"
+    },
+    "repository": "https://github.com/cma2819/pgrf3-layouts.git",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react-dom": "^18.0.8",
+        "@types/webpack-node-externals": "^2.5.3",
+        "html-webpack-plugin": "^5.5.0",
+        "nodecg-cli": "^8.0.1",
+        "ts-loader": "^9.4.1",
+        "ts-node": "^10.9.1",
+        "ts-nodecg": "^0.3.1",
+        "typescript": "^4.8.4",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-merge": "^5.8.0",
+        "webpack-node-externals": "^3.0.0"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@fortawesome/fontawesome-free": "^6.2.0",
+        "@mui/icons-material": "^5.10.9",
+        "@mui/material": "^5.10.11",
+        "globby": "^11.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "styled-components": "^5.3.6"
+    }
+}

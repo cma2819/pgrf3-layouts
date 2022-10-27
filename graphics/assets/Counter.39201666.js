@@ -1,0 +1,1 @@
+import{y as s,c as n,z as a,A as t,b as o,d as e,t as u,u as r}from"./vendor.cd1d5b6d.js";const d={props:{destination:Number},setup(d){const i=d,p=s({num:i.destination}),m=n((()=>p.num));return a((()=>i.destination),(s=>t.to(p,{num:s,duration:1,snap:{num:1},ease:"power4.out"}))),(s,n)=>(o(),e("span",null,u(r(m)),1))}};export{d as _};
