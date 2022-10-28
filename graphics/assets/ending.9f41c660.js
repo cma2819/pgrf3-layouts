@@ -1,0 +1,1 @@
+import{b as s,d as a,e as o,F as n,k as e}from"./vendor.cd1d5b6d.js";import{_ as t,s as d}from"./index.078cb997.js";const i=o("p",{class:"main"},"Thank you for watching!",-1),m=o("p",{class:"sub"},"See you again next PGRF!",-1);e({setup:e=>(e,d)=>(s(),a(n,null,[o(t,{animated:""}),i,m],64))}).use(d).mount("#root");
